@@ -99,7 +99,7 @@ while True:
         quirkList = make_list("Quirks.txt")
         
     userInput = "X"
-    while userInput != "t" and userInput != "d" and userInput != "r" and userInput != ".":
+    while userInput != "t" and userInput != "d" and userInput != "r" and userInput != "+" and userInput != "-" and userInput != ".":
         userInput = input(str(player_names[current_player]) + ", do you want a Truth (t) or a Dare (d)?")
     randomProbability = uniform(0, 1)
     #print(randomProbability)
@@ -122,6 +122,22 @@ while True:
             print("Something went wrong. Try again please!")
     elif userInput == "r":
         current_player = (current_player - 2) % len(player_names)
+    elif userInput == "+":
+        while(True):
+            userInput = input("Who is joining? Enter a name or leave blank to continue playing:")
+            if(userInput != ""):
+                player_names.insert(current_player, str(userInput))
+            else:
+                break
+        current_player = (current_player - 1) % len(player_names)
+    elif userInput == "-":
+        print("Bye, "+str(player_names[current_player])+"! You've been removed from the list of active players.")
+        del player_names[current_player]
+        if(len(player_names) > 0):
+            current_player = (current_player - 1) % len(player_names)
+        else:
+            print("You're the last to go. Thanks for playing!")
+            break
     elif userInput == ".":
         print("Thanks for playing!")
         break
