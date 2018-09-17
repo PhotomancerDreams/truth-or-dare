@@ -3,8 +3,6 @@ from random import *
 #user_input = ""
 #num_players = ""
 current_player = 0
-extreme_point_dict = {}
-
 
 def make_list(fileName):
     sourceFile = open(fileName)
@@ -62,24 +60,9 @@ def getPlayerNames():
         userInput = input("Who is playing? Enter a name or leave blank to start:")
         if(userInput != ""):
             player_list.append(str(userInput))
-            awardExtremePoints(str(userInput), 0)
         else:
             break
     return player_list
-'''
-def addPlayersToExtremePointDict(player_list):
-    for player in player_list:
-        extreme_point_dict[player] = 0
-'''
-
-def awardExtremePoints(player, points):
-    if (player in extreme_point_dict) == False:
-        extreme_point_dict[player] = 0
-    extreme_point_dict[player] += points
-
-def printExtremePoints():
-    for player, points in extreme_point_dict.items():
-        print(str(player)+": "+str(points))
 
 truthList = make_list("Truths.txt")
 dareList = make_list("Dares.txt")
@@ -115,8 +98,8 @@ while True:
         print("You've seen all the quirks, get ready for more of the same!")
         quirkList = make_list("Quirks.txt")
         
-    userInput = ""
-    while userInput != "t" and userInput != "d" and userInput != "r" and userInput != "s" and userInput != "x" and userInput != "+" and userInput != "-" and userInput != ".":
+    userInput = "X"
+    while userInput != "t" and userInput != "d" and userInput != "r" and userInput != "+" and userInput != "-" and userInput != ".":
         userInput = input(str(player_names[current_player]) + ", do you want a Truth (t) or a Dare (d)?")
     randomProbability = uniform(0, 1)
     #print(randomProbability)
@@ -139,37 +122,11 @@ while True:
             print("Something went wrong. Try again please!")
     elif userInput == "r":
         current_player = (current_player - 2) % len(player_names)
-    elif userInput == "s":
-        print("Skipping "+str(player_names[current_player])+"...")
-    elif userInput == "x":
-        printExtremePoints()
-        while(True):
-            userInput = input("Award or spend Extreme Points! Type in a name, leave a space, and then a number of points to award or spend (leave blank to continue playing): ")
-            if(userInput != ""):
-                tokens = userInput.split()
-                player = str(tokens[0])
-                points = 0
-                if len(tokens) == 2:
-                    try:
-                        points = int(tokens[1])
-                    except:
-                        print(Exception)
-                if player in extreme_point_dict:
-                    try:
-                        awardExtremePoints(player, points)
-                    except:
-                        print(str(points)+" is not recognized as a number. Try again, and make sure to leave a space.")
-                else:
-                    print(player+" is not recognized as a current player. Check the list to make sure your spelling matches.")
-            else:
-                break
-        current_player = (current_player - 1) % len(player_names)
     elif userInput == "+":
         while(True):
             userInput = input("Who is joining? Enter a name or leave blank to continue playing:")
             if(userInput != ""):
                 player_names.insert(current_player, str(userInput))
-                awardExtremePoints(str(userInput), 0)
             else:
                 break
         current_player = (current_player - 1) % len(player_names)

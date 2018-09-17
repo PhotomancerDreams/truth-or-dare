@@ -45,12 +45,3 @@ New Quirk: Sings Everything
 New Quirk: You have a catchphrase that you say after everything. (Your choice of catchphrase)
 New Quirk: Finger Moustache
 New Quirk: Multiple Personalities
-New Quirk: Motherly
-New Quirk: You offer to help with everything.
-New Quirk: Smiles Unnaturally
-New Quirk: Supervillain
-New Quirk: Takes up as much space as they can.
-New Quirk: Covers up every inch of their skin.
-New Quirk: Suspects everything is a shapeshifter in disguise.
-New Quirk: Body is frozen while talking.
-New Quirk: Cannot say real names. Substitutes with arbitrary nicknames and pronouns.
