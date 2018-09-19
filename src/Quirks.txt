@@ -45,3 +45,5 @@ New Quirk: Sings Everything
 New Quirk: You have a catchphrase that you say after everything. (Your choice of catchphrase)
 New Quirk: Finger Moustache
 New Quirk: Multiple Personalities
+New Quirk: You address everyone by "your majesty", "most benevolent mistress", and other honorifics.
+New Quirk: You predict things that just happened as though they're visions of the future.
