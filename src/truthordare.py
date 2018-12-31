@@ -85,34 +85,41 @@ def printExtremePoints():
         print(str(player)+": "+str(points))
         
 def giveTruth():
+    category = getCategoryFromDistribution(truthQuirkProbabilityDistribution)
     global last_was_truth
     last_was_truth = True
     newTruth = truthList.pop()
     newTruth = process(newTruth, player_names)
     print(newTruth)
+    if category == 1:
+        addQuirk()
+    elif category != 0:
+        print("Something went wrong. Try again please!")
     
 def giveDare():
     category = getCategoryFromDistribution(dareQuirkProbabilityDistribution)
     global last_was_truth
     last_was_truth = False
-    if category == 0:
-        newDare = dareList.pop()
-        newDare = process(newDare, player_names)
-        print(newDare)
-    elif category == 1:
-        newQuirk = quirkList.pop()
-        newQuirk = process(newQuirk, player_names)
-        print(newQuirk)
-    else:
+    newDare = dareList.pop()
+    newDare = process(newDare, player_names)
+    print(newDare)
+    if category == 1:
+        addQuirk()
+    elif category != 0:
         print("Something went wrong. Try again please!")
+        
+def addQuirk():
+    newQuirk = quirkList.pop()
+    newQuirk = process(newQuirk, player_names)
+    print(newQuirk)
 
 truthList = make_list("Truths.txt")
 dareList = make_list("Dares.txt")
 quirkList = make_list("Quirks.txt")
 
 #Provide boundaries, not proportions
-truthProbabilityDistribution = [1.0]
-dareQuirkProbabilityDistribution = [0.8, 1.0]
+truthQuirkProbabilityDistribution = [0.5, 1.0]
+dareQuirkProbabilityDistribution = [0.5, 1.0]
 
 '''
 try: 

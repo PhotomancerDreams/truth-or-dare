@@ -1,49 +1,155 @@
-New Quirk: You have a crush on somebody in the group. (Your choice)
-New Quirk: Fabulous
-New Quirk: You have a deep-seated grudge against somebody in the group. (Your choice)
-New Quirk: You only speak a made-up language, unless responding to a direct question.
-New Quirk: You cannot speak, unless responding to a direct question.
-New Quirk: Your feet are really heavy.
-New Quirk: Your arms are really heavy.
-New Quirk: Your head is really heavy.
-New Quirk: Germophobic
-New Quirk: Hallucinations
-New Quirk: The voices want you to do something. (Your choice)
-New Quirk: Paranoid
-New Quirk: Nymphomaniac
-New Quirk: You have an imaginary friend.
-New Quirk: Werewolf
-New Quirk: Neat Freak
-New Quirk: Gets Angry Easily
-New Quirk: Cries Easily
-New Quirk: Hyperactive
-New Quirk: Needs Attention
-New Quirk: Steals Food
-New Quirk: Gossip
-New Quirk: You are learning how to walk.
-New Quirk: You move in slow motion.
-New Quirk: You always address everyone by their full name, and you will make it up if you don't know it.
-New Quirk: You are just looking for an excuse to start a fight.
-New Quirk: You always agree with everyone.
-New Quirk: You always disagree with everyone.
-New Quirk: You only speak three words at a time.
-New Quirk: Always Dancing
-New Quirk: Pirate
-New Quirk: No short term memory
-New Quirk: Pick Pocket
-New Quirk: Extremely Conceited
-New Quirk: Airhead
-New Quirk: Obsession (Your choice)
-New Quirk: Itchy
-New Quirk: Too Cold
-New Quirk: Too Hot
-New Quirk: Wizard
-New Quirk: Vampire
-New Quirk: Cowboy/Cowgirl
-New Quirk: Gorilla
-New Quirk: Sings Everything
-New Quirk: You have a catchphrase that you say after everything. (Your choice of catchphrase)
-New Quirk: Finger Moustache
-New Quirk: Multiple Personalities
-New Quirk: You address everyone by "your majesty", "most benevolent mistress", and other honorifics.
-New Quirk: You predict things that just happened as though they're visions of the future.
+Quirk: You have a crush on someone.
+Quirk: Fabulous
+Quirk: Holding a deep-seated grudge against someone.
+Quirk: Only speaking a made-up language, unless responding to a direct question.
+Quirk: Cannot speak, unless responding to a direct question.
+Quirk: Feet are really heavy.
+Quirk: Arms are really heavy.
+Quirk: Everything is really heavy.
+Quirk: Germophobic
+Quirk: Hallucinations
+Quirk: The voices want you to do something. (Your choice)
+Quirk: Paranoid
+Quirk: Nymphomaniac
+Quirk: You have an imaginary friend.
+Quirk: Werewolf
+Quirk: Neat Freak
+Quirk: Gets Angry Easily
+Quirk: Cries Easily
+Quirk: Hyperactive
+Quirk: Needs Attention
+Quirk: Steals Food
+Quirk: Gossip
+Quirk: Learning how to walk.
+Quirk: Moving in slow motion.
+Quirk: Addressing people by their full name. Make it up if you don't know it.
+Quirk: Just looking for an excuse to start a fight.
+Quirk: Always agrees with everyone.
+Quirk: Always disagrees with everyone.
+Quirk: Only speaks three words at a time.
+Quirk: Always Dancing
+Quirk: Pirate
+Quirk: No short term memory
+Quirk: Pick Pocket
+Quirk: Extremely Conceited
+Quirk: Airhead
+Quirk: Obsession (Your choice)
+Quirk: Itchy
+Quirk: Too Cold
+Quirk: Too Hot
+Quirk: Wizard
+Quirk: Vampire
+Quirk: Cowboy/Cowgirl
+Quirk: Gorilla
+Quirk: Sings Everything
+Quirk: You have a catchphrase that you say after everything. (Your choice of catchphrase)
+Quirk: Finger Moustache
+Quirk: Multiple Personalities
+Quirk: Addressing people by "your majesty", "most benevolent mistress", and other honorifics.
+Quirk: Describing events from the past as though you are seeing a vision of the future.
+Quirk: Easily Impressed
+Quirk: Obnoxiously Cheerful
+Quirk: Passive-Aggressive
+Quirk: Dramatically Distraught
+Quirk: Employing superfluously lengthy words.
+Quirk: Keeping things short and to the point.
+Quirk: Clingy
+Quirk: Everything is "No big deal."
+Quirk: Sexy
+Quirk: Breathing Loudly
+Quirk: Stoic
+Quirk: Can't stay still.
+Quirk: Exasperated
+Quirk: Interpreting things literally.
+Quirk: Cursing casually.
+Quirk: Mind-Reader
+Quirk: Can't hear your own name.
+Quirk: Giving wise-sounding advice.
+Quirk: Can only see what's within reach.
+Quirk: Over-using "air quotes"
+Quirk: Pronouncing things incorrectly
+Quirk: Narrator
+Quirk: Chivalrous
+Quirk: Entitled
+Quirk: Desperate
+Quirk: Dirty Mind
+Quirk: Making eye contact with someone whenever possible.
+Quirk: Innocent
+Quirk: Helium Voice
+Quirk: Deep Voice
+Quirk: Robot
+Quirk: Fish Lips
+Quirk: Sniffing the air.
+Quirk: Following someone wherever they go.
+Quirk: Sore Muscles
+Quirk: Sickly
+Quirk: Protecting someone from all possible harm.
+Quirk: Talking too fast.
+Quirk: T-Rex Arms
+Quirk: Martial Artist
+Quirk: Supermodel
+Quirk: Shaky Legs
+Quirk: Tapping Feet
+Quirk: Must place ear against somebody's body to hear them.
+Quirk: Royalty
+Quirk: Needing to pee.
+Quirk: Critic
+Quirk: Frat Bro
+Quirk: Shaking your jowls.
+Quirk: Loves Everyone
+Quirk: Laughs Uncontrollably
+Quirk: Elderly
+Quirk: Failing... with style.
+Quirk: Condescending
+Quirk: Misunderstood Artist
+Quirk: Sarcastic
+Quirk: Over-eager
+Quirk: Doomsday Planner
+Quirk: Hipster
+Quirk: Sinister
+Quirk: Snapping fingers for emphasis.
+Quirk: Applauds Everything
+Quirk: Bored
+Quirk: Likes Big Butts (And Cannot Lie).
+Quirk: Seussically Rhyming
+Quirk: Shakesperian
+Quirk: Lonely
+Quirk: Rapper
+Quirk: Grumpy
+Quirk: Southern Drawl
+Quirk: Can only communicate through animal noises and body language.
+Quirk: Gestures while speaking.
+Quirk: Stoned
+Quirk: Talking like you are actively pooping.
+Quirk: Nerdy
+Quirk: Whispers Loudly
+Quirk: News Anchor
+Quirk: Stuffy Nose
+Quirk: Scared
+Quirk: Drunk
+Quirk: Indignant
+Quirk: Relieved
+Quirk: Fierce
+Quirk: Clumsy
+Quirk: Mysterious
+Quirk: Jealous
+Quirk: Old-fashioned
+Quirk: Daredevil
+Quirk: Disgusted
+Quirk: Graceful
+Quirk: Hypnotist
+Quirk: Soldier
+Quirk: Growling
+Quirk: Rabid
+Quirk: Shy
+Quirk: Heartfelt
+Quirk: Spooky Storyteller
+Quirk: Movie Trailer Voiceover
+Quirk: Therapist
+Quirk: Tests Everything
+Quirk: Vengeful
+Quirk: Whiny
+Quirk: Perfect Posture
+Quirk: Censoring your speech with kid-friendly alternatives.
+Quirk: Smoker's Lungs
+Quirk: Squishing your belly button whenever you speak as though it's a puppet
