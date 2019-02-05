@@ -45,7 +45,7 @@ What is your least favorite position?
 What is the worst sexual experience you've ever had?
 Have you ever had sex outside?
 Where is the strangest place you've ever had sex?
-Have you ever performed oral on somebody of the same sex?
+Have you ever been surprised by something during sex?
 Have you ever paid for sex?
 Who was your first partner?
 Who is your favorite porn star?
@@ -126,7 +126,7 @@ Tell us your most embarrassing vomit story.
 Tell us something you haven't wanted us to know.
 Under what circumstances would you make out with someone?
 What have you done that people here would judge you most for doing?
-What would you do if you were the opposite gender for a day?
+What would you do if you were another gender for a day?
 Who is your crush?
 
 Pick two players you think would make a cute couple (that aren't already a couple).
@@ -139,8 +139,6 @@ If you were given 1 million tax free dollars to have sex with a pig publicly on 
 What is the kinkiest dream you've ever had?
 Describe a sexual fantasy that you'd like to actually try sometime.
 When is the last time you thought about somebody sexually? Are they in the room?
-Have you ever been interested in a romantic relationship with somebody of the same gender?
-Have you ever fantasized about having sex with somebody of the same gender?
 Tell us who in this room you'd most want as a roommate.
 Describe something physically appealing about each other person in the room.
 Say what you love most about each other person in the room.
@@ -153,8 +151,8 @@ Would you rather have $100 today, or $1000 in 10 years?
 Would you rather have $1 for sure, or a 50/50 shot at winning $4 or losing $1?
 All water you drink is replaced with another beverage once it enters your mouth. What beverage would you choose?
 What's a kind of pain that you enjoy?
-What's your favorite quality about yourself that people consider traditionally masculine?
-What's your favorite quality about yourself that people consider traditionally feminine?
+What's your favorite quality about yourself that society considers traditionally masculine?
+What's your favorite quality about yourself that society considers traditionally feminine?
 Tell us about your first time driving.
 What noises stress you out?
 Where do you like having hair on your body, and where do you not?
@@ -232,9 +230,8 @@ You're a shapeshifter that can take on any form you can imagine. What do you cho
 Would you rather your teeth be so long that your lips can't touch, or no teeth at all?
 What sense could you manage without?
 Do you like when strangers engage you in conversation while you're waiting in a line?
-If you could control earth, air, fire, or water, which one would you choose?
 You've always had a superpower, but didn't know it. What event in your past is better explained by this?
-How much is one hour of your time worth? What would you pay somebody to do the work you actually get done in one hour?
+What would you pay somebody to do the work you actually get done in one hour?
 Have the group choose a monster. Would you fight or fuck?
 
 Have you ever been arrested? What for?
@@ -245,3 +242,16 @@ What's the stupidest thing you've done while drunk or otherwise intoxicated?
 Who here would you most want to be lost with?
 If you had 24 hours to live, what would you do?
 Out of all the players, who would be the last person you'd fuck?
+
+How often do you have to fake happiness?
+Have you ever fantasized about having sex with someone?
+You can freely replace any or all of your body parts with cybernetics. What do you replace, and with what?
+What is a mental health issue you regularly struggle with?
+Do you wish that people you trust were more physically affectionate with you, or less?
+When you hold your thoughts back, do you usually do it for the sake of other people's feelings, or your own?
+What is an opportunity you regret missing?
+What's something you wish your friends did for you more often?
+What's a task you wish was more fun to do?
+What's a personality trait that you find particularly attractive?
+What preparations do you want to make for your death?
+What is a legacy you've made that will outlive you?

@@ -19,6 +19,7 @@ def make_list(fileName):
     return itemList
 
 def getCategoryFromDistribution(probabilityDistribution):
+    randomProbability = uniform(0, 1)
     for i in range(len(probabilityDistribution)):
         if randomProbability <= probabilityDistribution[i]:
             return i
@@ -83,43 +84,54 @@ def awardExtremePoints(player, points):
 def printExtremePoints():
     for player, points in extreme_point_dict.items():
         print(str(player)+": "+str(points))
-        
-def giveTruth():
-    category = getCategoryFromDistribution(truthQuirkProbabilityDistribution)
-    global last_was_truth
-    last_was_truth = True
-    newTruth = truthList.pop()
-    newTruth = process(newTruth, player_names)
-    print(newTruth)
-    if category == 1:
-        addQuirk()
-    elif category != 0:
-        print("Something went wrong. Try again please!")
-    
-def giveDare():
-    category = getCategoryFromDistribution(dareQuirkProbabilityDistribution)
-    global last_was_truth
-    last_was_truth = False
-    newDare = dareList.pop()
-    newDare = process(newDare, player_names)
-    print(newDare)
-    if category == 1:
-        addQuirk()
-    elif category != 0:
-        print("Something went wrong. Try again please!")
-        
-def addQuirk():
-    newQuirk = quirkList.pop()
-    newQuirk = process(newQuirk, player_names)
-    print(newQuirk)
 
 truthList = make_list("Truths.txt")
 dareList = make_list("Dares.txt")
 quirkList = make_list("Quirks.txt")
 
+def giveTruth():
+    global truthList
+    global last_was_truth
+    last_was_truth = True
+    newTruth = truthList.pop()
+    newTruth = process(newTruth, player_names)
+    print(newTruth)
+    category = getCategoryFromDistribution(truthQuirkProbabilityDistribution)    
+    while category == 1:
+        addQuirk()
+        category = getCategoryFromDistribution(truthQuirkProbabilityDistribution)
+    if not truthList: 
+        print("You've seen all the truths, get ready for more of the same!")
+        truthList = make_list("Truths.txt")
+       	
+def giveDare():
+    global dareList
+    global last_was_truth
+    last_was_truth = False
+    newDare = dareList.pop()
+    newDare = process(newDare, player_names)
+    print(newDare)
+    category = getCategoryFromDistribution(dareQuirkProbabilityDistribution)
+    while category == 1:
+        addQuirk()
+        category = getCategoryFromDistribution(dareQuirkProbabilityDistribution)
+    if not dareList: 
+        print("You've seen all the dares, get ready for more of the same!")
+        dareList = make_list("Dares.txt")
+        
+def addQuirk():
+    global quirkList
+    newQuirk = quirkList.pop()
+    newQuirk = process(newQuirk, player_names)
+    print(newQuirk)
+    if not quirkList: 
+        print("You've seen all the quirks, get ready for more of the same!")
+        quirkList = make_list("Quirks.txt")
+
+
 #Provide boundaries, not proportions
-truthQuirkProbabilityDistribution = [0.5, 1.0]
-dareQuirkProbabilityDistribution = [0.5, 1.0]
+truthQuirkProbabilityDistribution = [0.8, 1.0]
+dareQuirkProbabilityDistribution = [0.8, 1.0]
 
 '''
 try: 
@@ -134,24 +146,11 @@ except ValueError:
 
 player_names = getPlayerNames()
 
-while True:
-    if not truthList: 
-        print("You've seen all the truths, get ready for more of the same!")
-        truthList = make_list("Truths.txt")
-        
-    if not dareList: 
-        print("You've seen all the dares, get ready for more of the same!")
-        dareList = make_list("Dares.txt")
-        
-    if not quirkList: 
-        print("You've seen all the quirks, get ready for more of the same!")
-        quirkList = make_list("Quirks.txt")
-        
+while True:        
     userInput = ""
     while userInput != "t" and userInput != "d" and userInput != "r" and userInput != "n" and userInput != "s" and userInput != "x" and userInput != "+" and userInput != "-" and userInput != ".":
         userInput = input(str(player_names[current_player]) + ", do you want a Truth (t) or a Dare (d)?")
-    randomProbability = uniform(0, 1)
-    #print(randomProbability)
+    
     if userInput == "t":
         giveTruth()
     elif userInput == "d":
