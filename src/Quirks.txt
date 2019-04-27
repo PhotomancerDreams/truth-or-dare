@@ -158,3 +158,13 @@ Quirk: Auctioneer
 Quirk: Talking like everyone you see is just the cutest widdle puppy
 Quirk: Surprised by everything
 Quirk: Crabwalking
+Quirk: Posh
+Quirk: Knowing Smirk
+Quirk: Decisive
+Quirk: Speaking Hypothetically
+Quirk: Ending phrases with "You know?"
+Quirk: Sighing
+Quirk: Playful Flirting
+Quirk: Morbidly Deadpan
+Quirk: Swaying back and forth
+Quirk: Humming
