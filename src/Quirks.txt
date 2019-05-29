@@ -21,7 +21,7 @@ Quirk: Needs Attention
 Quirk: Steals Food
 Quirk: Gossip
 Quirk: Learning how to walk.
-Quirk: Moving in slow motion.
+Quirk: Slow Motion
 Quirk: Addressing people by their full name. Make it up if you don't know it.
 Quirk: Just looking for an excuse to start a fight.
 Quirk: Always agrees with everyone.
@@ -84,7 +84,7 @@ Quirk: Following someone wherever they go.
 Quirk: Sore Muscles
 Quirk: Sickly
 Quirk: Protecting someone from all possible harm.
-Quirk: Talking too fast.
+Quirk: Too fast.
 Quirk: T-Rex Arms
 Quirk: Martial Artist
 Quirk: Supermodel
@@ -158,7 +158,7 @@ Quirk: Auctioneer
 Quirk: Talking like everyone you see is just the cutest widdle puppy
 Quirk: Surprised by everything
 Quirk: Crabwalking
-Quirk: Posh
+Quirk: Billionaire
 Quirk: Knowing Smirk
 Quirk: Decisive
 Quirk: Speaking Hypothetically
@@ -168,3 +168,11 @@ Quirk: Playful Flirting
 Quirk: Morbidly Deadpan
 Quirk: Swaying back and forth
 Quirk: Humming
+Quirk: Talking like someone
+Quirk: Luxuriously Decadent
+Quirk: Gruff 'n Gravelly
+Quirk: Gutteral
+Quirk: Shaky
+Quirk: Talking without letting your lips touch
+Quirk: Burping
+Quirk: Childish
